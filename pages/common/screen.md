@@ -14,7 +14,7 @@
 
 - Start a new daemon and log the output to `screenlog.x`:
 
-`screen -dmLS {{session_name}} {{command}}`
+`screen -dmL -S {{session_name}} {{command}}`
 
 - Show open screen sessions:
 
